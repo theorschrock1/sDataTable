@@ -19,3 +19,5 @@ Imports:
     zeallot,
     R6,
     AOunits
+URL: https://github.com/theorschrock1/sDataTable
+BugReports: https://github.com/theorschrock1/sDataTable/issues
