@@ -1,0 +1,21 @@
+Package: sDataTable
+Type: Package
+Title: Dynamic data tables
+Version: 0.0.0.9000
+Author: Theo Schrock
+Maintainer: <theorschrock@gmail.com>
+Description: Advanced automated data manipulation.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    sUtils,
+    glue,
+    stringr,
+    checkmate,
+    rlang,
+    data.table,
+    exprTools,
+    zeallot,
+    R6,
+    AOunits
