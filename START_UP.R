@@ -23,10 +23,5 @@ initializeTestthat(test_deps = c("checkmate"))
 
 # Initialize a shiny package if this is a shiny app
 
-is_shiny_app = FALSE
-
-if (is_shiny_app) initializeShinyPackage("sDataTable")
-
-# Start developement
 
 sDevTools::go_to_dev()

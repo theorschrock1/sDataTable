@@ -1,0 +1,31 @@
+Formula,unit
+kg,mass
+m/s,unit of speed
+kW*h,unit of electricity
+C/V,unit of capacitance
+J/s,unit of power
+s,duration
+J,unit of energy
+min/hr,time frequency
+1/s,unit of frequency
+m,distance/length
+cd,lumisous intensity
+mole,unit of chemical mass
+kg*m/s^2,unit of force
+N/m^2,unit of pressure
+Wb/A,unit of inductance
+lm/m^2,unit of illumination
+mol/s,unit of catalytic activity 
+J/kg,unit of ionizing radiation
+m^3,unit of volume
+m^2,unit of area
+cm/s^2,unit of acceleration
+A,unit of electric current
+K,unit of temperature
+rad/s,unit of angular frequency
+arc_degree,unit of angle on a sphere
+rotation/second,unit of angular velocity
+kg/m,unit of lineic mass density
+rad,unit of angular measure
+kg/m^3,density
+$,unit of value

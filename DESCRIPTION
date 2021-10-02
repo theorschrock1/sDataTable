@@ -1,7 +1,7 @@
 Package: sDataTable
 Type: Package
 Title: Dynamic data tables
-Version: 0.0.0.9002
+Version: 0.0.0.9003
 Author: Theo Schrock
 Maintainer: <theorschrock@gmail.com>
 Description: Advanced automated data manipulation.
@@ -19,7 +19,10 @@ Imports:
     zeallot,
     R6,
     AOunits,
-    units
+    units,
+    lubridate,
+    ShinyReboot,
+    SDT
 URL: https://github.com/theorschrock1/sDataTable
 BugReports: https://github.com/theorschrock1/sDataTable/issues
 Suggests: 

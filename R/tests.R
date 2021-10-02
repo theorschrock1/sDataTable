@@ -1,0 +1,146 @@
+fixedtest=function(env=caller_env()){
+  list2env(list(name='fixed_test',
+                J="sum(price)",
+                I=NULL,
+                by='color',
+                include_LOD=NULL,
+                exclude_LOD=NULL,
+                from_source=F,
+                replace_old=T),envir=env)
+}
+cleartest=function(env=caller_env()){
+  list2env(list(name='test',
+                J=NULL,
+                I=NULL,
+                by=NULL,
+                include_LOD=NULL,
+                exclude_LOD=NULL,
+                from_source=F,
+                replace_old=T),envir=env)
+}
+sourcetest=function(env=caller_env()){
+  list2env(list(name='color',
+                J="color",
+                I=NULL,
+                by=NULL,
+                include_LOD=NULL,
+                exclude_LOD=NULL,
+                replace_old=T,
+                from_source=T),envir=env)
+}
+aggtest=function(env=caller_env()){
+  list2env(list(name='sum_mpg',
+                J="sum(price)",
+                I=NULL,
+                by=NULL,
+                include_LOD=NULL,
+                exclude_LOD=NULL,
+                from_source=F,
+                replace_old=T),envir=env)
+}
+
+excludeAMtest=function(env=caller_env()){
+  list2env(list(name='exclude_am_test',
+                J="sum(price)",
+                I=NULL,
+                by=NULL,
+                include_LOD=NULL,
+                exclude_LOD="color",
+                from_source=F,
+                replace_old=T),envir=env)
+}
+exclude1test=function(env=caller_env()){
+  list2env(list(name='exclude1_test',
+                J="sum(price)",
+                I=NULL,
+                by=NULL,
+                include_LOD=NULL,
+                exclude_LOD=1,
+                from_source=F,
+                replace_old=T),envir=env)
+}
+includetest=function(env=caller_env()){
+  list2env(list(name='include_test',
+                J="sum(price)",
+                I=NULL,
+                by=NULL,
+                include_LOD="color",
+                exclude_LOD=NULL,
+                from_source=F,
+                replace_old=T),envir=env)
+}
+ffixedtest=function(env=caller_env()){
+  list2env(list(name='fixed_test2',
+                J="sum(fixed_test)",
+                I=NULL,
+                by='cut',
+                include_LOD=NULL,
+                exclude_LOD=NULL,
+                from_source=F,
+                replace_old=T),envir=env)
+}
+
+fixedtest2=function(){
+  list(name='fixed_test',
+       J="sum(price)",
+       I=NULL,
+       by='color',
+       include_LOD=NULL,
+       exclude_LOD=NULL,
+       from_source=F)
+}
+ffixedtest2=function(){
+  list(name='fixed_test2',
+       J="sum(fixed_test)",
+       I=NULL,
+       by='cut',
+       include_LOD=NULL,
+       exclude_LOD=NULL,
+       from_source=F)
+}
+sourcetest2=function(){
+  list(name='color',
+       J="color",
+       I=NULL,
+       by=NULL,
+       include_LOD=NULL,
+       exclude_LOD=NULL,
+       from_source=T)
+}
+aggtest2=function(){
+  list(name='sum_mpg',
+       J="sum(price)",
+       I=NULL,
+       by=NULL,
+       include_LOD=NULL,
+       exclude_LOD=NULL,
+       from_source=F)
+}
+
+excludeAMtest2=function(){
+  list(name='exclude_am_test',
+       J="sum(price)",
+       I=NULL,
+       by=NULL,
+       include_LOD=NULL,
+       exclude_LOD="color",
+       from_source=F)
+}
+exclude1test2=function(){
+  list(name='exclude1_test',
+       J="sum(price)",
+       I=NULL,
+       by=NULL,
+       include_LOD=NULL,
+       exclude_LOD=1,
+       from_source=F)
+}
+includetest2=function(){
+  list(name='include_test',
+       J="sum(price)",
+       I=NULL,
+       by=NULL,
+       include_LOD="color",
+       exclude_LOD=NULL,
+       from_source=F)
+}

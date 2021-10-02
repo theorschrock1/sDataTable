@@ -11,7 +11,8 @@
 #' @export
 dynDT <- function(x) {
     # Create a dynamic data.table
-    assert_any(x, checkDataFrame(), checkDataTable(), checkMatrix())
+    assert_any(x, checkmate::checkDataFrame(),  checkmate::checkDataTable(),  checkmate::checkMatrix())
     dynDataTable$new(data = x)
+
     # Returns: \code{[R6(dynDataTable)]}
 }
